@@ -11,3 +11,4 @@ website/
 docs/
 /.rpt2_cache
 src/bld
+demo/.cache

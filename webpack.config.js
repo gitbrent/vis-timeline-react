@@ -1,12 +1,14 @@
 var path = require("path");
+
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "./src/vis-timeline-react.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "vis-timeline-react.js",
     libraryTarget: "commonjs2"
   },
+  devtool: "#eval-source-map",
   module: {
     rules: [
       {
