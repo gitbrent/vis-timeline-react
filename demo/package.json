@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "vis-timeline-react demo react app",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "./node_modules/parcel-bundler/bin/cli.js index.html",
+    "build": "./node_modules/parcel-bundler/bin/cli.js build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
